@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="mainDiv">
+
+        <div class="pleaseWait">
+
+            <div class="img"></div>
+            <h2>Please wait while we get the weather..</h2>
+
+        </div>
+
+        <div class="mainData">
+
+            <div class="search-wrapper">
+
+                <div class="search">
+                    <button type="submit" id="btn"><i class="fa fa-search"></i></button>
+                    <input id="location" type="text" placeholder="Enter City...">
+                </div>
+
+            </div>
+
+            <h1 class="small-font-size"><span id="changeLocation"></span></h1>
+
+            <div class="info-contain">
+
+                <div class="info-wrapper">
+                    <div class="info box a" id="temp"></div>
+
+                    <div class="dataContain b box">
+
+                        <div class="info ">Humidity </div>
+                        <div id="hum" class="boldData"></div>
+
+                    </div>
+
+                    <div class="dataContain c box ">
+
+                        <div class="info ">Pressure </div>
+                        <div id="press" class="boldData"></div>
+
+                    </div>
+
+                    <div class="dataContain d box ">
+
+                        <div class="info ">Wind </div>
+                        <div id="wind" class="boldData"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

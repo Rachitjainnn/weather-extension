@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.mainData {
+    display: none;
+    background-image: url(./chan-hoi-EawumO7WTv4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.img {
+    background-image: url(./12856-NOPL0C-removebg-preview.png);
+    height: 80px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.pleaseWait {
+    background-color: rgb(32, 170, 177);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.pleaseWait h2 {
+    font-size: 20px;
+    color: #fff;
+}
+
+#mainDiv,
+.mainData {
+    max-width: 100%;
+    height: 300px;
+    width: 400px;
+}
+
+label[for="location"] {
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 600;
+    vertical-align: middle;
+    color: white;
+}
+
+#location {
+    border: none
+}
+
+.search-wrapper, .info-contain {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    margin-top: 10px;
+    height: 30%;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    margin-bottom: 20px;
+}
+
+#location::placeholder {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.info-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 120px 120px 120px;
+    color: #444;
+  
+}
+
+.box {
+    background-color: rgb(68, 68, 68,0.5);
+    color: #fff;
+    border-radius: 5px;
+
+  }
+
+  .a {
+    background-color: transparent;
+    grid-column: 2/ 3;
+    grid-row: 1;
+    font-size: 40px;
+    font-weight: 800;
+  }
+.b, .c, .d{
+    height: 70px;
+    font-size: 15px;
+
+}
+.b{
+    grid-column: 2/ 3;
+    grid-row: 2;
+}
+.c{
+    grid-column: 1/ 2;
+    grid-row: 2;
+}
+.d{
+    grid-column: 3/ 4;
+    grid-row: 2;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    white-space: nowrap;
+    transition: font-size 0.3s;
+}
+
+.small-font-size {
+    font-size: 30px;
+}
+
+#changeLocation {
+    white-space: normal;
+    overflow: hidden;
+}
+
+.info {
+    margin: 7px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.boldData{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+}
+
+#btn {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+#btn:hover {
+    background-color: rgb(159, 225, 234);
+}
+.dataContain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
